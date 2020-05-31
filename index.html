@@ -1,32 +1,17 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title>AR/VR Challenge HCI</title>
+  <head>
+    <title>Lightful</title>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- Camera! -->
+      <a-entity id="rig" position="0 3 0">
+        <a-camera wasd-controls look-controls></a-camera>
+      </a-entity>
 
-	<script src="./scripts/main.js"></script>
-	<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
-</head>
-<body>
-
-	<a-scene>
-		
-		<a-assets>
-			
-		</a-assets>
-
-		<!-- Camera -->
-		<a-entity id="rig" position="0 3 0">
-			<a-camera wasd-controls look-controls></a-camera>
-		</a-entity>
-
-		<!-- Plant -->
-		<a-gltf-model src="./assets/fantasy_tree/scene.gltf"></a-gltf-model>
-
-		<!-- Ground -->
-		<a-plane height="100" width="100" rotation="-90 0 0"></a-plane>
-
-
-	</a-scene>
-
-</body>
+      <!-- Action! -->
+      <a-box shadow width="75" height="0.1" depth="75" position="0 -1 0" color="#222"></a-box>
+    </a-scene>
+  </body>
 </html>
