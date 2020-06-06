@@ -10,7 +10,10 @@
     <a-scene>
       <!-- Camera -->
       <a-entity id="rig" position="0 3 0">
-        <a-camera wasd-controls look-controls></a-camera>
+        <a-camera wasd-controls look-controls>
+        	<a-cursor></a-cursor>
+        </a-camera>
+
       </a-entity>
 
       <!-- Ground -->
@@ -21,6 +24,8 @@
 
       <!-- Plant -->
       <a-gltf-model src="../assets/fantasy_tree/scene.gltf" position="0 2 -5" scale="1 1 1"></a-gltf-model>
+
+      <a-circle color="#ccc" radius="1" position="0 2 -5"></a-circle>
 
     </a-scene>
   </body>
