@@ -2,6 +2,9 @@
   <head>
     <title>Lightful</title>
     <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+</head>
+
   </head>
   <body>
     <a-scene>
@@ -12,6 +15,9 @@
 
       <!-- Ground -->
       <a-box shadow width="75" height="0.1" depth="75" position="0 -1 0" color="#222"></a-box>
+
+      <!-- Environment -->
+      <a-entity environment="preset: forest; dressingAmount: 500"></a-entity>
 
       <!-- Plant -->
       <a-gltf-model src="../assets/fantasy_tree/scene.gltf" position="0 2 -5" scale="1 1 1"></a-gltf-model>
