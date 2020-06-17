@@ -3,6 +3,7 @@
     <title>Lightful</title>
     <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
     <script src="scripts/main.js"></script>
 </head>
 
@@ -22,6 +23,9 @@
 
       <!-- Environment -->
       <a-entity environment="preset: forest; dressingAmount: 500"></a-entity>
+
+      <!-- Rain -->
+      <a-entity position="0 2.25 -15" particle-system="color: #EF0000, #44CC00"></a-entity>
 
       <!-- Plant -->
       <a-gltf-model src="../assets/fantasy_tree/scene.gltf" position="0 2 -5" scale="1 1 1"></a-gltf-model>
