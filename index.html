@@ -23,6 +23,7 @@
 
       <a-assets>
       	<a-asset-items id="cloud" src="assets/cloud/scene.gltf"></a-asset-items>
+      	<a-asset-items id="tree" src="assets/tree/scene.gltf"></a-asset-items>
       </a-assets>
 
       <!-- Ground -->
@@ -33,10 +34,12 @@
 
      
      <!-- Cloud -->
-      <a-entity gltf-model="#cloud" position="-0.07, 2.2, 0.15" scale="0.3, 0.3, 0.3"></a-entity>
+      <a-entity gltf-model="#cloud" position="0 2 -5" scale="0.3, 0.3, 0.3"></a-entity>
 
 
       <!-- Plant -->
+
+      <a-entity gltf-model="#tree" position="0 2 -5" scale="0.3, 0.3, 0.3"></a-entity>
    
 
       <a-sphere color="#ccc" radius="1" position="0 2 -5"></a-sphere>
