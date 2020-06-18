@@ -9,7 +9,10 @@
 
   </head>
   <body>
-    <a-scene rain="height: 2; width: 0.2;">
+    <a-scene rain="height: 2; width: 0.4;">
+
+
+
       <!-- Camera -->
       <a-entity id="rig" position="0 3 0">
         <a-camera wasd-controls look-controls>
@@ -29,7 +32,8 @@
       <a-entity environment="preset: forest; dressingAmount: 500"></a-entity>
 
      
-      <a-entity gltf-model="#cloud"></a-entity>
+     <!-- Cloud -->
+      <a-entity gltf-model="#cloud" position="-0.07, 2.2, 0.15" scale="0.3, 0.3, 0.3"></a-entity>
 
 
       <!-- Plant -->
