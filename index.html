@@ -3,13 +3,13 @@
     <title>Lightful</title>
     <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
-    <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
+    <script src="https://rawgit.com/takahirox/aframe-rain/master/build/aframe-rain.min.js"></script>
     <script src="scripts/main.js"></script>
 </head>
 
   </head>
   <body>
-    <a-scene>
+    <a-scene rain="height: 2; width: 0.2;">
       <!-- Camera -->
       <a-entity id="rig" position="0 3 0">
         <a-camera wasd-controls look-controls>
