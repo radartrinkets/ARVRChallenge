@@ -1,0 +1,357 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 19456,
+      "max": [
+        50.830940246582031,
+        51.056980133056641,
+        112.87478637695312
+      ],
+      "min": [
+        -41.282520294189453,
+        -21.826679229736328,
+        -0.40138000249862671
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 233472,
+      "componentType": 5126,
+      "count": 19456,
+      "max": [
+        0.99967408180236816,
+        0.99987488985061646,
+        0.99999767541885376
+      ],
+      "min": [
+        -0.99998849630355835,
+        -0.99999183416366577,
+        -0.99995595216751099
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 19456,
+      "max": [
+        0.99999642372131348,
+        0.99993056058883667,
+        0.9793892502784729,
+        1
+      ],
+      "min": [
+        -0.9999653697013855,
+        -0.99999386072158813,
+        -0.99608111381530762,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 466944,
+      "componentType": 5126,
+      "count": 19456,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 19456,
+      "max": [
+        0.99976998567581177,
+        0.96527999639511108
+      ],
+      "min": [
+        0.0009399999980814755,
+        0.00028000000747852027
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 111024,
+      "max": [
+        19455
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Tomations (https://sketchfab.com/Tomations)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/sprout-1a2cd1e1433b48d1b737d2db527975c8",
+      "title": "Sprout"
+    },
+    "generator": "Sketchfab-5.50.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 444096,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 155648,
+      "byteOffset": 444096,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 700416,
+      "byteOffset": 599744,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 311296,
+      "byteOffset": 1300160,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1611456,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/Material.001_diffuse.png"
+    },
+    {
+      "uri": "textures/Material.001_specularGlossiness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0.10000000000000001,
+        0.10000000000000001,
+        0.10000000000000001
+      ],
+      "emissiveTexture": {
+        "index": 0,
+        "texCoord": 0
+      },
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "diffuseTexture": {
+            "index": 0,
+            "texCoord": 0
+          },
+          "glossinessFactor": 0.77000762199999995,
+          "specularFactor": [
+            1,
+            1,
+            1
+          ],
+          "specularGlossinessTexture": {
+            "index": 1,
+            "texCoord": 0
+          }
+        }
+      },
+      "name": "Material.001"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 3,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        0.027830000000000004,
+        -0.0061200000000000022,
+        0,
+        0,
+        0.0061200000000000022,
+        0.027830000000000004,
+        0,
+        0,
+        0,
+        0,
+        0.028490000000000005,
+        0,
+        0.17047000000000001,
+        -1.3311999999999999,
+        1.21888,
+        1
+      ],
+      "name": "Cube"
+    },
+    {
+      "mesh": 0,
+      "name": "Cube_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        0.43658000000000008,
+        -0.88656000000000001,
+        -0.15302000000000002,
+        0,
+        0.46522999999999998,
+        0.07690000000000001,
+        0.88184000000000018,
+        0,
+        -0.77002999999999999,
+        -0.45618999999999998,
+        0.44603000000000004,
+        0,
+        -12.121869999999998,
+        2.1285000000000003,
+        9.5741599999999991,
+        1
+      ],
+      "name": "Point"
+    },
+    {
+      "name": "Point"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.00021000000000000006,
+        -0.95820000000000005,
+        8.4034800000000018,
+        1
+      ],
+      "name": "Point.001"
+    },
+    {
+      "name": "Point.001"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
+
