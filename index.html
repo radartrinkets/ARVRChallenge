@@ -35,8 +35,9 @@
 
      
      <!-- Cloud -->
-      <a-entity gltf-model="#cloud" position="0 3 -5" scale="0.3, 0.3, 0.3"></a-entity>
-
+     <a-box position="0 3 -5" visible="false" depth="2" height="3" width="2">
+      <a-entity gltf-model="#cloud" position="0 3 0" scale="0.3, 0.3, 0.3"></a-entity>
+  	</a-box>
 
       <!-- Sprout -->
       <a-entity gltf-model="#sprout" position="0 0 -3" scale="0.2, 0.2, 0.2"></a-entity>
