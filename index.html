@@ -27,6 +27,7 @@
       	<a-asset-items id="sprout" src="assets/sprout/scene.gltf"></a-asset-items>
       	<a-asset-items id="grass1" src="assets/grass1/scene.gltf"></a-asset-items>
       	<a-asset-items id="grass2" src="assets/grass2/scene.gltf"></a-asset-items>
+      	<audio id="rainsound" src="assets/rain.mp3" preload="auto"></audio>
       </a-assets>
 
       <!-- Ground -->
@@ -36,9 +37,9 @@
       <a-entity environment="preset: forest; dressingAmount: 500"></a-entity>
 
      
-     <!-- Cloud -->
-     
-      <!--<a-entity gltf-model="#cloud" position="0 3 0" scale="0.3, 0.3, 0.3"></a-entity>-->
+     <!-- Rain sound -->
+     <a-entity sound="src: #rainsound" autoplay="true" loop="true"></a-entity>
+
   	
 
       <!-- Sprouts -->
